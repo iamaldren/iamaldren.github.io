@@ -35,11 +35,7 @@ let siteMetadata = {
 		name: "PRIVACY POLICY",
 		url: "/privacy-policy"
 	}],
-	social: [{
-			name: "Facebook",
-			icon: "/images/Facebook.svg",
-			url: "#"
-		},
+	social: [
 		{
 			name: "Twitter",
 			icon: "/images/Twitter.svg",
@@ -48,22 +44,17 @@ let siteMetadata = {
 		{
 			name: "Instagram",
 			icon: "/images/Instagram.svg",
-			url: "#"
-		},
-		{
-			name: "Youtube",
-			icon: "/images/Youtube.svg",
-			url: "#"
+			url: "https://www.instagram.com/iamaldrew"
 		},
 		{
 			name: "LinkedIn",
 			icon: "/images/LinkedIn.svg",
-			url: "#"
+			url: "https://www.linkedin.com/in/aldren-bobiles"
 		},
 		{
 			name: "GitHub",
 			icon: "/images/GitHub.svg",
-			url: "#"
+			url: "https://github.com/iamaldren"
 		}
 	],
 	contact: {
