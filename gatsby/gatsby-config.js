@@ -5,7 +5,7 @@ let siteMetadata = {
 	icon: `/images/icon.png`,
 	titleImage: `/images/wall.jpg`,
 	introTag: `BASIC | HUMAN`,
-	description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+	description: `My own personal space, where I'll write anything I want because it's my page not yours.`,
 	author: `@iamaldren`,
 	blogItemsPerPage: 10,
 	portfolioItemsPerPage: 10,
