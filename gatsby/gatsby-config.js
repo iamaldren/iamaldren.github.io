@@ -54,6 +54,16 @@ let siteMetadata = {
 			name: "Youtube",
 			icon: "/images/Youtube.svg",
 			url: "#"
+		},
+		{
+			name: "LinkedIn",
+			icon: "/images/LinkedIn.svg",
+			url: "#"
+		},
+		{
+			name: "GitHub",
+			icon: "/images/GitHub.svg",
+			url: "#"
 		}
 	],
 	contact: {
