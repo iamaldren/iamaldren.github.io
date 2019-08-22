@@ -60,7 +60,7 @@ let siteMetadata = {
 	contact: {
 		api_url: "./test.json",
 		/* Leave this completely empty (no space either) if you don't want a contact form. */
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+		description: `Feel free to reach out.`,
 		mail: "aldrenbobiles@gmail.com",
 		phone: "000-000-0000",
 		address: "Singapore"

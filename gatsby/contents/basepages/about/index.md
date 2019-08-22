@@ -14,8 +14,8 @@ Before transferring to Singapore, I worked in Malaysia for almost 4 years, assig
 
 I am trying to build knowledge in other languages (Python, Go, Javascript) to broaden my skillsets.
 
-Personally, I do love to travel a lot and see the world with my own 2 eyes. I was also a dancer, but due to lack of time and platform I was not able to pursue this talent of mine. I do like to read during my free time, and anything cosmic tickels my fancy (Who doesn't? Blackholes are one interesting behemoths!). 
+Personally, I do love to travel a lot and see the world. I was also a dancer, but due to lack of time and platform I was not able to pursue this talent of mine. I do like to read during my free time, and anything cosmic tickels my fancy (Who doesn't? Blackholes are one interesting behemoths!). 
 
-Good photography skills and techniques amazes me, but I'm so bad at them. Also, I am casual gamer who loves RPG a lot.
+Also, I am casual gamer who loves RPG a lot.
 
 Well folks! That's me.
