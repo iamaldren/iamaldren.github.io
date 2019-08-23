@@ -5,7 +5,7 @@ let siteMetadata = {
 	icon: `/images/icon.png`,
 	titleImage: `/images/wall.jpg`,
 	introTag: `BASIC | HUMAN`,
-	description: `My own personal space, where I'll write anything I want because it's my page not yours.`,
+	description: `(This is a Work in Progress)`,
 	author: `@iamaldren`,
 	blogItemsPerPage: 10,
 	portfolioItemsPerPage: 10,
