@@ -25,7 +25,6 @@
     "react-sidebar": "^3.0.2"
   },
   "devDependencies": {
-    "del-cli": "^2.0.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -33,8 +32,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "clean": "del -f \"../!(gatsby)*\" && rm -rf public",
-    "build": "gatsby build && npm run clean && cp -a public/* ../",
+    "build": "gatsby build && cp -a public/* ../",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
