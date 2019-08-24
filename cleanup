@@ -1,0 +1,16 @@
+#!/bin/bash
+
+rm -r *.js*
+rm -r *.html
+rm -r 404
+rm -r about
+rm -r blog
+rm -r contact
+rm -r images
+rm -r page-2
+rm -r page-data
+rm -r portfolio
+rm -r privacy-policy
+rm -r static
+rm -r *.json
+rm -r *.css
