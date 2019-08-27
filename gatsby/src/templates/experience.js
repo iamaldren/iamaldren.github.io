@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Date from "../components/date"
 import { Row, Col} from "../components/page-components/grid"
 import MD from "gatsby-custom-md"
-import "../style/portfolio-singlepage.less"
+import "../style/experience-singlepage.less"
 
 const components = {
 	'row':Row,
@@ -18,7 +18,7 @@ export default function({data}){
 		<Layout>
 			<SEO lang="en" title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} image={data.markdownRemark.frontmatter.image.publicURL}/>
 			<div className="container">
-				<article className="portfolio-post">
+				<article className="experience-post">
 					<div className="head text-primary">
 						<h1>{data.markdownRemark.frontmatter.title}</h1>
 						<p className="post-date">

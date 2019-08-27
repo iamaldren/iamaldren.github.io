@@ -8,7 +8,7 @@ let siteMetadata = {
 	description: `(This is a Work in Progress)`,
 	author: `@iamaldren`,
 	blogItemsPerPage: 10,
-	portfolioItemsPerPage: 10,
+	experienceItemsPerPage: 10,
 	darkmode: true,
 	navLinks: [{
 			name: "HOME",
@@ -19,12 +19,12 @@ let siteMetadata = {
 			url: "/about"
 		},
 		{
-			name: "BLOG",
-			url: "/blog"
+			name: "EXPERIENCE",
+			url: "/experience"
 		},
 		{
-			name: "PORTFOLIO",
-			url: "/portfolio"
+			name: "BLOG",
+			url: "/blog"
 		},
 		{
 			name: "CONTACT",

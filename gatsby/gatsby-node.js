@@ -33,8 +33,8 @@ exports.createPages = ({ graphql, actions }) => {
           			}
         		}
       		}
-			portfolio: allMarkdownRemark(
-				filter: { fileAbsolutePath: {regex : "\/portfolio/"} }
+			experience: allMarkdownRemark(
+				filter: { fileAbsolutePath: {regex : "\/experience/"} }
 			) {
         		edges {
           			node {
@@ -64,7 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
 			limitPost: site{
 				siteMetadata{
 					blogItemsPerPage
-					portfolioItemsPerPage
+					experienceItemsPerPage
 				}
 			}
     	}
@@ -88,18 +88,18 @@ exports.createPages = ({ graphql, actions }) => {
 			})
 	  	})
 
-		const PortfolioItems = result.data.portfolio.edges
-	  	const PortfolioItemsPerPage = result.data.limitPost.siteMetadata.portfolioItemsPerPage;
-	  	const numPortfolioItems = Math.ceil(PortfolioItems.length / PortfolioItemsPerPage)
+		const ExperienceItems = result.data.experience.edges
+	  	const ExperienceItemsPerPage = result.data.limitPost.siteMetadata.experienceItemsPerPage;
+	  	const numExperienceItems = Math.ceil(ExperienceItems.length / ExperienceItemsPerPage)
 
-		Array.from({ length: numPortfolioItems }).forEach((_, i) => {
+		Array.from({ length: numExperienceItems }).forEach((_, i) => {
 			createPage({
-		  		path: i === 0 ? `/portfolio` : `/portfolio/${i + 1}`,
-		  		component: path.resolve("./src/templates/portfolio-list.js"),
+		  		path: i === 0 ? `/experience` : `/experience/${i + 1}`,
+		  		component: path.resolve("./src/templates/experience-list.js"),
 		  		context: {
 					limit: blogPostsPerPage,
 					skip: i * blogPostsPerPage,
-					numPages: numPortfolioItems,
+					numPages: numExperienceItems,
 					currentPage: i + 1,
 		  		},
 			})
@@ -116,8 +116,8 @@ exports.createPages = ({ graphql, actions }) => {
 	      	})
     	})
 
-		result.data.portfolio.edges.forEach(({ node }) => {
-			let template = node.frontmatter.template === undefined ? "portfolio" : node.frontmatter.template;
+		result.data.experience.edges.forEach(({ node }) => {
+			let template = node.frontmatter.template === undefined ? "experience" : node.frontmatter.template;
 	      	createPage({
 		        path: node.fields.slug,
 		        component: path.resolve("./src/templates/"+template+".js"),

@@ -1,8 +1,8 @@
 import React from "react"
 import Img from "gatsby-image"
-import "../style/list-portfolio.less"
+import "../style/list-experience.less"
 
-class PortfolioItem extends React.Component{
+class ExperienceItem extends React.Component{
 	render(){
 		return(
 			<div className="item col s12">
@@ -27,7 +27,7 @@ export default function(props){
 	let items = [];
 	data.forEach(function(e,i){
 		items.push(
-			<PortfolioItem key={e.node.id} data={e}/>
+			<ExperienceItem key={e.node.id} data={e}/>
 		)
 	})
 	return(
