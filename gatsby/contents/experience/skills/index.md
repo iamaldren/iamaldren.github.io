@@ -16,7 +16,7 @@ Java
 
 [/col]
 [col]
-![image](./gopher.png)
+![image](./golang.png)
 
 Golang
 
@@ -27,7 +27,27 @@ Golang
 
 [row]
 [col]
-![image](./spring.png)
+![image](./springboot.png)
+
+Spring Boot
+
+[/col]
+[col]
+![image](./vertx.png)
+
+Vert.x
+
+[/col]
+[/row]
+[row]
+[col]
+![image](./hibernate.png)
+
+Hibernate
+
+[/col]
+[col]
+![image](./springframework.png)
 
 Spring Framework
 
@@ -50,7 +70,7 @@ Redis
 
 [/col]
 [col]
-![image](./mssql.png)
+![image](./mssqlserver.png)
 
 MS SQL Server
 
@@ -59,6 +79,52 @@ MS SQL Server
 ![image](./oracle.png)
 
 Oracle
+
+[/col]
+[/row]
+
+## Tools
+
+[row]
+[col]
+![image](./Maven.png)
+
+Maven
+
+[/col]
+[col]
+![image](./jenkins.png)
+
+Jenkins
+
+[/col]
+[col]
+![image](./git.png)
+
+Git
+
+[/col]
+[col]
+![image](./docker.png)
+
+Docker
+
+[/col]
+[/row]
+
+## IDE
+
+[row]
+[col]
+![image](./idea.png)
+
+IntelliJ IDEA
+
+[/col]
+[col]
+![image](./eclipse.png)
+
+Eclipse
 
 [/col]
 [/row]
