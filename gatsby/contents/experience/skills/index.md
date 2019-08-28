@@ -128,3 +128,42 @@ Eclipse
 
 [/col]
 [/row]
+
+## Application/Web Servers
+
+[row]
+[col]
+![image](./nginx.png)
+
+Nginx
+
+[/col]
+[col]
+![image](./tomcat.png)
+
+Apache Tomcat
+
+[/col]
+[/row]
+
+## Cloud Platforms
+
+[row]
+[col]
+![image](./cloudfoundry.png)
+
+Pivotal Cloud Foundry
+
+[/col]
+[/row]
+
+## Data Streaming
+
+[row]
+[col]
+![image](./kafka.png)
+
+Apache Kafka
+
+[/col]
+[/row]
