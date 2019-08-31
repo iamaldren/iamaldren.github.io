@@ -1,8 +1,7 @@
 ---
 title: Skills
 description: Tech Stack
-date: 2019-08-28
-template: experience
+template: skills
 image: ./image.jpg
 ---
 
