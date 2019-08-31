@@ -20,6 +20,12 @@ Java
 Golang
 
 [/col]
+[col]
+![image](./python.png)
+
+Python
+
+[/col]
 [/row]
 
 ## Frameworks
